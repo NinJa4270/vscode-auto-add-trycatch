@@ -1,5 +1,5 @@
 import { test, expect } from 'vitest';
-import { getAwaitExpression } from '../src/index';
+import { getAwaitExpression } from '../src/main';
 
 test.skip('await', () => {
     const index = 238;

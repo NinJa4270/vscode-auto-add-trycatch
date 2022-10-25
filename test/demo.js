@@ -10,8 +10,20 @@ function get() { };
 
 async function getValue() {
     let d;
-    const a = await p();
-    await p();
-    d = await p();
+    try {
+        const a = await p();
+    } catch (e) {
+        console.log(e)
+    }
+    try {
+        await p()
+    } catch (e) {
+        console.log(e)
+    };
+    try {
+        d = await p();
+    } catch (e) {
+        console.log(e)
+    }
     console.log(a);
 };
