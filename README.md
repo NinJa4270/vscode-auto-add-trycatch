@@ -3,7 +3,7 @@
 
 ### Usage
 1.  Through the Command Palette.
-- `addTryCacth`
+- `Try Catch`
 2. Through the shortcut
 - `mac "cmd + o + o"`
 - `win "ctrl + o + o"`
@@ -23,3 +23,5 @@ async function getValue() {
    }
 };
 ```
+
+![trycatch](https://user-images.githubusercontent.com/62171212/197775651-7cbe7758-3e67-4e27-a178-65e9ea6eb6ca.gif)
